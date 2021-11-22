@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet Link -->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="nav">
+        <ul class="nav-bar">
+          <li class="nav-item">
+            <a href="#" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Login</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <picture>
+        <source
+          media="(min-width: 1440px)"
+          srcset="./images/hero-image-1440.jpg"
+        />
+        <source
+          media="(min-width: 1024px)"
+          srcset="./images/hero-image-1024.jpg"
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="./images/hero-image-768.jpg"
+        />
+        <source
+          media="(min-width: 425px)"
+          srcset="./images/hero-image-425.jpg"
+        />
+        <img
+          class="hero-image"
+          src="./images/hero-image-1440.jpg"
+          alt="pencils"
+        />
+      </picture>
+      <div class="hero-text">
+        <h1>Get The Best Online Courses</h1>
+        <p>
+          Lorem ipsum dolor sit amet, adipisici elit. Soluta quisquam illo
+          maiores amet eius quibusdam voluptas. Ducimus, mollitia ab modi
+          impedit debitis.
+        </p>
+      </div>
+    </header>
+
+    <!-- =====Courses Categories Section ===== -->
+
+    <section class="container">
+      <div class="section-header">
+        <h2 class="section-title">Our Courses Categories</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisici elit. Nam voluptatem
+          doloremque eius non animi. Recusandae, Veniam accusantium praesentium
+          aperiam?
+        </p>
+      </div>
+      <div class="section-body">
+        <div class="section-cards">
+          <div class="card">
+            <img
+              class="card-image h-50"
+              src="./images/drawing-image.jpg"
+              alt="labtop"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Fashion Design</h5>
+              <p class="card-text">Lorem ipsum dolor adipisici elit.</p>
+              <p class="status">55 Courses</p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="card-image h-50"
+              src="./images/illustrator-image.jpg"
+              alt="labtop"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Illusturation &amp; Drawing</h5>
+              <p class="card-text">Lorem ipsum dolor adipisici elit.</p>
+              <p class="status">94 Courses</p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="card-image h-50"
+              src="./images/photography-image.jpg"
+              alt="labtop"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Photography</h5>
+              <p class="card-text">Lorem ipsum dolor adipisici elit.</p>
+              <p class="status">64 Courses</p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="card-image h-50"
+              src="./images/robot-image.jpg"
+              alt="labtop"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Artificial Intelligence</h5>
+              <p class="card-text">Lorem ipsum dolor adipisici elit.</p>
+              <p class="status">32 Courses</p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="card-image h-50"
+              src="./images/labtop-image.jpg"
+              alt="labtop"
+            />
+            <div class="card-body">
+              <h5 class="card-title">IT Development</h5>
+              <p class="card-text">Lorem ipsum dolor adipisici elit.</p>
+              <p class="status">31 Courses</p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="card-image h-50"
+              src="./images/studying-image.jpg"
+              alt="labtop"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Personal Development</h5>
+              <p class="card-text">Lorem ipsum dolor adipisici elit.</p>
+              <p class="status">15 Courses</p>
+            </div>
+          </div>
+        </div>
+        <div class="search-box bg-primary">
+          <h2>Search your course</h2>
+          <form class="inline-form">
+            <input type="text" placeholder="Course..." />
+            <input type="text" placeholder="Category..." />
+            <input type="button" class="btn bg-primary" value="Search Course" />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====Featured Courses Section ===== -->
+
+    <section class="container">
+      <div class="section-header">
+        <h2 class="section-title">Featured Courses</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisici elit. Nam voluptatem
+          doloremque eius non animi. Recusandae, Veniam accusantium praesentium
+          aperiam?
+        </p>
+      </div>
+      <ul class="nav-bar">
+        <li class="nav-item active">
+          <a href="#">All</a>
+        </li>
+        <li class="nav-item">
+          <a href="#">Finance</a>
+        </li>
+        <li class="nav-item">
+          <a href="#">Design</a>
+        </li>
+        <li class="nav-item">
+          <a href="#">Web Development</a>
+        </li>
+        <li class="nav-item">
+          <a href="#">Photography</a>
+        </li>
+      </ul>
+
+      <div class="section-cards">
+        <div class="card">
+          <p class="card-badge bg-primary">Price $14</p>
+          <img
+            class="card-image"
+            src="./images/illustrator-image.jpg"
+            alt="labtop"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Personal Development</h5>
+            <p class="card-text">Lorem ipsum dolor adipisici elit.</p>
+            <p class="status">15 Courses</p>
+          </div>
+          <div class="card-footer">
+            <img class="author-image" src="./images/woman-3.jpg" alt="person" />
+            <p class="author-name">Sandy Tamer</p>
+            <p class="author-profession">Developer</p>
+          </div>
+        </div>
+        <div class="card">
+          <p class="card-badge bg-primary">Price $14</p>
+          <img
+            class="card-image"
+            src="./images/studying-image.jpg"
+            alt="labtop"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Personal Development</h5>
+            <p class="card-text">Lorem ipsum dolor adipisici elit.</p>
+            <p class="status">15 Courses</p>
+          </div>
+          <div class="card-footer">
+            <img class="author-image" src="./images/woman-1.jpg" alt="person" />
+            <p class="author-name">Nouran Ahmed</p>
+            <p class="author-profession">Developer</p>
+          </div>
+        </div>
+        <div class="card">
+          <p class="card-badge bg-primary">Price $14</p>
+          <img
+            class="card-image"
+            src="./images/drawing-image.jpg"
+            alt="labtop"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Personal Development</h5>
+            <p class="card-text">Lorem ipsum dolor adipisici elit.</p>
+            <p class="status">15 Courses</p>
+          </div>
+          <div class="card-footer">
+            <img class="author-image" src="./images/man-1.jpg" alt="person" />
+            <p class="author-name">Hisham Said</p>
+            <p class="author-profession">Accountant</p>
+          </div>
+        </div>
+        <div class="card">
+          <p class="card-badge bg-primary">Price $14</p>
+          <img class="card-image" src="./images/robot-image.jpg" alt="labtop" />
+          <div class="card-body">
+            <h5 class="card-title">Personal Development</h5>
+            <p class="card-text">Lorem ipsum dolor adipisici elit.</p>
+            <p class="status">15 Courses</p>
+          </div>
+          <div class="card-footer">
+            <img class="author-image" src="./images/man-3.jpg" alt="person" />
+            <p class="author-name">Hisham Afifi</p>
+            <p class="author-profession">Developer</p>
+          </div>
+        </div>
+        <div class="card">
+          <p class="card-badge bg-primary">Price $14</p>
+          <img
+            class="card-image"
+            src="./images/photography-image.jpg"
+            alt="labtop"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Personal Development</h5>
+            <p class="card-text">Lorem ipsum dolor adipisici elit.</p>
+            <p class="status">15 Courses</p>
+          </div>
+          <div class="card-footer">
+            <img class="author-image" src="./images/woman-2.jpg" alt="person" />
+            <p class="author-name">Asmaa Afifi</p>
+            <p class="author-profession">Photography</p>
+          </div>
+        </div>
+        <div class="card">
+          <p class="card-badge bg-primary">Price $14</p>
+          <img
+            class="card-image"
+            src="./images/labtop-image.jpg"
+            alt="labtop"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Personal Development</h5>
+            <p class="card-text">Lorem ipsum dolor adipisici elit.</p>
+            <p class="status">15 Courses</p>
+          </div>
+          <div class="card-footer">
+            <img class="author-image" src="./images/woman-3.jpg" alt="person" />
+            <p class="author-name">Sara Ahmed</p>
+            <p class="author-profession">IT Developer</p>
+          </div>
+        </div>
+        <div class="card">
+          <p class="card-badge bg-primary">Price $14</p>
+          <img
+            class="card-image"
+            src="./images/illustrator-image.jpg"
+            alt="labtop"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Personal Development</h5>
+            <p class="card-text">Lorem ipsum dolor adipisici elit.</p>
+            <p class="status">15 Courses</p>
+          </div>
+          <div class="card-footer">
+            <img class="author-image" src="./images/man-2.jpg" alt="person" />
+            <p class="author-name">Ahmed Abdo</p>
+            <p class="author-profession">Designer</p>
+          </div>
+        </div>
+        <div class="card">
+          <p class="card-badge bg-primary">Price $14</p>
+          <img
+            class="card-image"
+            src="./images/studying-image.jpg"
+            alt="labtop"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Personal Development</h5>
+            <p class="card-text">Lorem ipsum dolor adipisici elit.</p>
+            <p class="status">15 Courses</p>
+          </div>
+          <div class="card-footer">
+            <img class="author-image" src="./images/man-1.jpg" alt="person" />
+            <p class="author-name">Hisham Afifi</p>
+            <p class="author-profession">Developer</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====Call-to-action Section ===== -->
+
+    <section class="cta-section clearfix bg-primary">
+      <img src="./images/cta-image.jpg" alt="labtop" />
+      <div class="cta-form">
+        <div class="cta-header">
+          <h2 class="section-title">Join Our Community Now!</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisici elit. Nam
+            voluptatem doloremque eius non animi.
+          </p>
+        </div>
+        <form action="#" class="form-group">
+          <input class="form-control" type="text" placeholder="Name" />
+          <input class="form-control" type="text" placeholder="Email" />
+          <input class="form-control" type="text" placeholder="Phone" />
+          <button class="btn bg-primary">Sign Up Now</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- ===== Fooooter Section ===== -->
+
+    <section class="bg-secondary">
+      <div class="container clearfix">
+        <p class="footer-copyright">
+          Copyright &copy; 2021 | all rights reserved
+        </p>
+        <p class="footer-links">
+          <a href="#">Terms &amp; Conditions</a> | <a href="#">Services</a> |
+          <a href="#">Privacy</a>
+        </p>
+      </div>
+    </section>
+  </body>
+</html>
